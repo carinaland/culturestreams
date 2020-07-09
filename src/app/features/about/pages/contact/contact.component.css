@@ -1,0 +1,22 @@
+
+
+.blabla {
+    text-align: center !important;
+}
+
+.social-media-link {
+    width: 400px;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border-bottom: 10px solid black;
+    border-right: 10px solid red;
+    display: inline-block;
+    margin: 20px;
+    align-self: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

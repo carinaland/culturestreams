@@ -1,0 +1,162 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
+@font-face {
+  font-family: 'sueellen';
+  src: url('assets/fonts/SueEllenFrancisco-Regular.ttf') format("truetype");
+} 
+
+html, body { height: 100%; }
+body {
+font-family: 'Courier New', Courier, monospace !important;
+  margin: 0;
+  font-size: 14px;
+}
+
+h2 {
+  font-size: 3.5em;
+}
+
+
+/* xxs */
+@media screen and (max-width: 399px) {
+  h1 { font-size: 0.9em; }
+  body { font-size: 50%;}
+}
+/* xs */
+@media screen and (min-width: 400px) and (max-width: 599px) {
+  h1 { font-size: 1em; }
+}
+/* small */
+@media screen and (min-width: 600px) and (max-width: 959px) {
+  h1 { font-size: 1.1em; }
+}
+/* medium */
+@media screen and (min-width: 960px) and (max-width: 1279px) {
+  h1 { font-size: 1.2em; }
+}
+/* lg */
+@media screen and (min-width: 1280px) and (max-width: 1919px) {
+  h1 { font-size: 1.4em; }
+}
+/* xl */
+@media screen and (min-width: 1920px) and (max-width: 5000px) {
+  h1 { font-size: 1.5em; }
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+
+}
+
+a.mat-flat-button {
+  font-size: 1.1em;
+  color: white;
+  background: red;
+}
+
+a.mat-flat-button:hover {
+  color: red;
+  background: white;
+}
+
+/* section {
+  padding-bottom: 20px;
+} */
+
+/* h2 {
+    margin: 30px;
+    font-size: 2.5em;
+    text-shadow: 0 0 5px white;
+    z-index: 10;
+}  */
+
+p {
+  max-width: 800px;
+}
+
+p.align-right {
+  text-align: right;
+}
+
+
+mat-toolbar {
+    background-color:white !important;
+    color: black !important;
+}
+
+button {
+  color: black;
+  font-weight: bolder;
+}
+button:hover {
+    background-color: red;
+    color: white;
+}
+
+mat-card {
+}
+
+mat-form-field {
+}
+
+.mat-button, .mat-fab, .mat-flat-button, .mat-icon-button, .mat-mini-fab, .mat-raised-button, .mat-stroked-button {
+    font-size: 1em;
+}
+
+.mat-icon {
+    vertical-align: middle;
+}
+
+.mat-button-wrapper {
+  margin: auto 0;
+}
+
+.mat-button-focus-overlay {
+  background: white !important;
+  background-color: white !important;
+}
+
+.hidden {
+    display : none;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.content {
+    text-align: center;
+    margin: 20px;
+    padding: 5px;
+}
+
+main {
+    margin: 0 auto;
+    padding: 16px;
+    min-height: 560px;
+}
+
+.mat-drawer-backdrop.mat-drawer-shown {
+    background-color: rgba(0,0,0,0);
+}
+
+@media screen and (min-width: 801px) {
+  .display-text {
+    font-size: 5em;
+  }
+}
+@media screen and (max-width: 800px) {
+  .display-text {
+    font-size: 3em;
+  }
+}
+@media screen and (max-width: 500px) {
+  .display-text {
+    font-size: 2em;
+  }
+}

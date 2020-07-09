@@ -1,0 +1,46 @@
+.information {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.couch-image {
+    width: 30%;
+    float: right;
+    margin-left: 50px;
+    margin-bottom: -20px !important;
+}
+
+.solution {
+    font-weight: bold;
+    font-size: 1.3em;
+    padding: 20px;
+}
+
+.headline {
+    margin-left: 50px;
+}
+
+.virusimage {
+    width: 70%;
+}
+.partner-card {
+    align-content: center;
+    max-width: fit-content;
+}
+
+.mat-card-image {
+    margin-left: 15px;
+    width: min-content;
+}
+
+.mat-card-content {
+    margin-left: 20px;
+    width: min-content;
+    text-align: center;
+}
+
+.partner-card-title {
+    margin-left: 20px;
+    text-align: center;
+}
+

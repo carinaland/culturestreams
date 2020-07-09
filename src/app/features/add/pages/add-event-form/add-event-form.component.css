@@ -1,0 +1,90 @@
+.card {
+    margin:30px;
+    padding:30px;
+}
+span.mat-button-wrapper {
+    /* margin: 5px; */
+    /* min-width: 100%; */
+    white-space: normal;
+}
+button.add-button.mat-button {
+    min-width: unset!important;
+}
+.add-button mat-icon, .mat-form-field-suffix .mat-icon {
+    color: red;
+}
+.add-button mat-icon:hover, .mat-form-field-suffix mat-icon:hover {
+    color: white!important;
+}
+
+.mat-select-panel .mat-option {
+    height: 2.5em;
+}
+
+mat-form-field {
+    margin-right: 20px;
+}
+
+.full-width {
+    width: 520px;
+}
+
+.half-width {
+    width: 250px;
+}
+
+.min-width {
+    width: 95px;
+}
+
+.special-width {
+    width:290px;
+}
+
+.submitButton {
+    background-color: black;
+    color: white;
+    float:right;
+    margin-right: 60px;
+}
+
+/* mat-icon {
+    margin: -15px;
+} */
+
+.label-tooltip {
+    display: inline-block;
+    margin-left: 3px;
+}
+
+.error {
+    background-color: #ffdddd;
+    display: inline-block;
+    padding: 20px;
+}
+
+.alert {
+    font-size:0.8em; 
+    color:red;
+    margin-top: -11px;
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.p-l-20 {
+    padding-left: 20px;
+}
+
+.float {
+    float: left;
+}
+
+.inline-checkbox {
+    display: inline-block;
+    margin-bottom:20px;
+    margin-top: 20px;
+
+}

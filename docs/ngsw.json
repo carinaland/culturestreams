@@ -1,0 +1,122 @@
+{
+  "configVersion": 1,
+  "timestamp": 1594298427483,
+  "index": "”https://carinaland.github.io/culturestreams/”/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "”https://carinaland.github.io/culturestreams/”/4-es5.07077eac782ac99f4612.js",
+        "”https://carinaland.github.io/culturestreams/”/5-es2015.40be41eaeae0f77e7dc6.js",
+        "”https://carinaland.github.io/culturestreams/”/5-es5.767d6997b12fbd42f63c.js",
+        "”https://carinaland.github.io/culturestreams/”/6-es2015.24b3c66eccc7e8947011.js",
+        "”https://carinaland.github.io/culturestreams/”/6-es5.5f8b4c869c311ed545b7.js",
+        "”https://carinaland.github.io/culturestreams/”/7-es2015.d408f269b516862b90b3.js",
+        "”https://carinaland.github.io/culturestreams/”/common-es2015.c65cf785b14b80b9baa8.js",
+        "”https://carinaland.github.io/culturestreams/”/common-es5.580b9432ea32a9ad124d.js",
+        "”https://carinaland.github.io/culturestreams/”/index.html",
+        "”https://carinaland.github.io/culturestreams/”/main-es2015.a0cbb3bab93b059e64c3.js",
+        "”https://carinaland.github.io/culturestreams/”/main-es5.9696e5167d235bbb3504.js",
+        "”https://carinaland.github.io/culturestreams/”/polyfills-es2015.2a8a5da053b423a2d9be.js",
+        "”https://carinaland.github.io/culturestreams/”/polyfills-es5.b8294845c3127d637abe.js",
+        "”https://carinaland.github.io/culturestreams/”/runtime-es2015.0347bf4920ef4a00a3da.js",
+        "”https://carinaland.github.io/culturestreams/”/runtime-es5.5988f30da9bc976c14ee.js",
+        "”https://carinaland.github.io/culturestreams/”/styles.51cd1e16d5ca9ba0947c.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "”https://carinaland.github.io/culturestreams/”/SueEllenFrancisco-Regular.af453ddd2dec974ffa5e.ttf",
+        "”https://carinaland.github.io/culturestreams/”/assets/favicon.ico",
+        "”https://carinaland.github.io/culturestreams/”/assets/fonts/SueEllenFrancisco-Regular.ttf",
+        "”https://carinaland.github.io/culturestreams/”/assets/fonts/material-design-icons/material-icons-v50.woff2",
+        "”https://carinaland.github.io/culturestreams/”/assets/fonts/material-design-icons/material-icons.css",
+        "”https://carinaland.github.io/culturestreams/”/assets/icons/icon-128x128.png",
+        "”https://carinaland.github.io/culturestreams/”/assets/icons/icon-144x144.png",
+        "”https://carinaland.github.io/culturestreams/”/assets/icons/icon-152x152.png",
+        "”https://carinaland.github.io/culturestreams/”/assets/icons/icon-192x192.png",
+        "”https://carinaland.github.io/culturestreams/”/assets/icons/icon-384x384.png",
+        "”https://carinaland.github.io/culturestreams/”/assets/icons/icon-512x512.png",
+        "”https://carinaland.github.io/culturestreams/”/assets/icons/icon-72x72.png",
+        "”https://carinaland.github.io/culturestreams/”/assets/icons/icon-96x96.png",
+        "”https://carinaland.github.io/culturestreams/”/assets/img/banner-wirvsvirus-reg.jpg",
+        "”https://carinaland.github.io/culturestreams/”/assets/img/cs-couch.png",
+        "”https://carinaland.github.io/culturestreams/”/assets/img/cs-sofaherz-dunkel.png",
+        "”https://carinaland.github.io/culturestreams/”/assets/img/cs-sofaherz.jpg",
+        "”https://carinaland.github.io/culturestreams/”/assets/img/partner-coronavz.png",
+        "”https://carinaland.github.io/culturestreams/”/assets/pdf/Datenschutz.pdf",
+        "”https://carinaland.github.io/culturestreams/”/assets/pdf/Impressum.pdf",
+        "”https://carinaland.github.io/culturestreams/”/assets/svg/logo-culturestreams-only.svg",
+        "”https://carinaland.github.io/culturestreams/”/assets/svg/logo-culturestreams.svg",
+        "”https://carinaland.github.io/culturestreams/”/material-icons-v50.0509ab09c1b0d2200a41.woff2"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "”https://carinaland.github.io/culturestreams/”/4-es5.07077eac782ac99f4612.js": "05631e1c84e30b670e3b20f1369cf0a7be31b580",
+    "”https://carinaland.github.io/culturestreams/”/5-es2015.40be41eaeae0f77e7dc6.js": "a1029132002f45fd796e0e85b3b1a591dcac5a9b",
+    "”https://carinaland.github.io/culturestreams/”/5-es5.767d6997b12fbd42f63c.js": "55c54ff2e7bd13d15ebc9dc2a66c9c92aaf155da",
+    "”https://carinaland.github.io/culturestreams/”/6-es2015.24b3c66eccc7e8947011.js": "d3e2cf7c4362d097b1b6b7d7aa2b771623ee3a4a",
+    "”https://carinaland.github.io/culturestreams/”/6-es5.5f8b4c869c311ed545b7.js": "8f2a5c9b046d857caebca3917731d042bc52d2db",
+    "”https://carinaland.github.io/culturestreams/”/7-es2015.d408f269b516862b90b3.js": "2ad0ebb05b5797b2d7491c4a096e985b911aa70c",
+    "”https://carinaland.github.io/culturestreams/”/SueEllenFrancisco-Regular.af453ddd2dec974ffa5e.ttf": "7b5a11b76ce73497ccece018063c864b23473544",
+    "”https://carinaland.github.io/culturestreams/”/assets/favicon.ico": "1c6c3da9c3166b1aa191baf886412140013b4f27",
+    "”https://carinaland.github.io/culturestreams/”/assets/fonts/SueEllenFrancisco-Regular.ttf": "7b5a11b76ce73497ccece018063c864b23473544",
+    "”https://carinaland.github.io/culturestreams/”/assets/fonts/material-design-icons/material-icons-v50.woff2": "308ee3580a4a34bd230025d460762d53b5344efc",
+    "”https://carinaland.github.io/culturestreams/”/assets/fonts/material-design-icons/material-icons.css": "99d38939282bf00774f08bafcb7af1bfd0068585",
+    "”https://carinaland.github.io/culturestreams/”/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "”https://carinaland.github.io/culturestreams/”/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "”https://carinaland.github.io/culturestreams/”/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "”https://carinaland.github.io/culturestreams/”/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "”https://carinaland.github.io/culturestreams/”/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "”https://carinaland.github.io/culturestreams/”/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "”https://carinaland.github.io/culturestreams/”/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "”https://carinaland.github.io/culturestreams/”/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "”https://carinaland.github.io/culturestreams/”/assets/img/banner-wirvsvirus-reg.jpg": "74ecd9439a91417e7e46cfcc476cf12ad62d97af",
+    "”https://carinaland.github.io/culturestreams/”/assets/img/cs-couch.png": "9b667b09744cc66bf967c8cbe8cd4044623072d7",
+    "”https://carinaland.github.io/culturestreams/”/assets/img/cs-sofaherz-dunkel.png": "c5971c2308c343faff19ebb8773373a0e8dd74cc",
+    "”https://carinaland.github.io/culturestreams/”/assets/img/cs-sofaherz.jpg": "60a04a8e58db9f7575a4034476a48455a1acef0a",
+    "”https://carinaland.github.io/culturestreams/”/assets/img/partner-coronavz.png": "8ac0ccdede033108827780b266880072f33dc682",
+    "”https://carinaland.github.io/culturestreams/”/assets/pdf/Datenschutz.pdf": "be67458033b6f3ee5c260c2179ac7eb9a996295b",
+    "”https://carinaland.github.io/culturestreams/”/assets/pdf/Impressum.pdf": "6bf2c15b67f358e1b2ce9503af6e1c6c3787cf6c",
+    "”https://carinaland.github.io/culturestreams/”/assets/svg/logo-culturestreams-only.svg": "f3010086a7d63300ba1afcfe4fed4cc41eadae6a",
+    "”https://carinaland.github.io/culturestreams/”/assets/svg/logo-culturestreams.svg": "cd95f1b25858f01e6440849ce4ac9200347b3781",
+    "”https://carinaland.github.io/culturestreams/”/common-es2015.c65cf785b14b80b9baa8.js": "04bd2bf1bb1b4fe43f211ccbe340b51ce74104ad",
+    "”https://carinaland.github.io/culturestreams/”/common-es5.580b9432ea32a9ad124d.js": "6c92c585a2aaaa4958419612242d0d554dc7f570",
+    "”https://carinaland.github.io/culturestreams/”/index.html": "021ef6a66cdcb480c686de6a80844a82934b79ae",
+    "”https://carinaland.github.io/culturestreams/”/main-es2015.a0cbb3bab93b059e64c3.js": "eb90a46c021d237075493cc980d405766b73538f",
+    "”https://carinaland.github.io/culturestreams/”/main-es5.9696e5167d235bbb3504.js": "6811c2a841a7b62f1d0f535140c87c01a476b292",
+    "”https://carinaland.github.io/culturestreams/”/material-icons-v50.0509ab09c1b0d2200a41.woff2": "308ee3580a4a34bd230025d460762d53b5344efc",
+    "”https://carinaland.github.io/culturestreams/”/polyfills-es2015.2a8a5da053b423a2d9be.js": "6253e458300af60bdc69d422ace8da1d9bc01c4e",
+    "”https://carinaland.github.io/culturestreams/”/polyfills-es5.b8294845c3127d637abe.js": "085d1a27fa11b9039f65a4dea16a8acd600f835f",
+    "”https://carinaland.github.io/culturestreams/”/runtime-es2015.0347bf4920ef4a00a3da.js": "fa073333b4f8fc470e5d0d2f10a844687f0d5bb3",
+    "”https://carinaland.github.io/culturestreams/”/runtime-es5.5988f30da9bc976c14ee.js": "812aa3070cc9ac98aaee3c0d37a3944f0f8b72fd",
+    "”https://carinaland.github.io/culturestreams/”/styles.51cd1e16d5ca9ba0947c.css": "ba6c671984b417ca2e47e024e7cbd3505983358b"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}

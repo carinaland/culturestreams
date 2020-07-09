@@ -1,0 +1,117 @@
+<mat-card *ngIf="event"
+fxLayout="row" fxLayout.xs="column" fxFlex="grow">
+  <!-- IMAGE -->
+    <img *ngIf="event.image; else elseBlock" mat-card-image
+    class="event-image"
+    src="{{ event.image }}"
+    default="/../../../../assets/img/cs-sofaherz-dunkel.png"
+    alt="{{ event.name }}, Quelle: {{ event.image }}"
+    fxHide.lt-sm
+    fxFlex="30">
+    <ng-template #elseBlock>
+      <img mat-card-image
+      class="event-image"
+      src="/../../../../assets/img/cs-sofaherz-dunkel.png"
+      fxHide.lt-sm
+      fxFlex="30">
+    </ng-template>
+  <!-- IMAGE END -->
+    <mat-card-header
+    fxFlex.gt-sm="30"
+    fxFlex.sm="50">
+        <img mat-card-avatar
+        class="event-avatar"
+        src="{{ event.image }}"
+        default="/../../../../assets/img/cs-sofaherz-dunkel.png"
+        fxHide fxShow.xs>
+        <mat-card-title *ngIf="event">
+          <h1>{{event.name | uppercase}}</h1>
+        </mat-card-title>
+        <mat-card-subtitle class="event-subtitle">
+          <span *ngIf="event.subtitle">{{event.subtitle}} | </span>
+          <span class="event-organizer">{{event.organizer.name}}</span>
+          <div class="event-attributes" fxLayout="row" fxLayoutAlign="center center">
+            <a mat-icon-button
+            class="attribute-{{ hasInfoLink }}"
+            aria-label="Informationen"
+            [disabled]="hasInfoLink"
+            href="{{event.infoLink}}" target="_blank" rel="noopener">
+              <mat-icon matTooltip="{{ hasInfoLink ? 'weitere Informationen' : 'keine weiteren Infos hinterlegt' }}">link</mat-icon>
+            </a>
+            <a mat-icon-button
+            class="attribute-{{ hasDonationLink }}"
+            aria-label="Spende"
+            [disabled]="hasDonationLink"
+            href="{{event.donationLink}}" target="_blank" rel="noopener">
+              <mat-icon matTooltip="{{ hasDonationLink ? 'hier kannst Du spenden' : 'kein Spendenlink gefunden' }}">favorite</mat-icon>
+            </a>
+            <button mat-icon-button
+            disabled
+            aria-label="Verfügbarkeit"
+            class="attribute-{{ event.availableLiveOnly }}">
+              <mat-icon matTooltip="{{ event.availableLiveOnly ? 'nur live verfügbar' : 'längerfristig verfügbar' }}">hourglass_empty</mat-icon>
+            </button>
+            <button class="attribute-{{ !event.freeOfCharge }}"
+            mat-icon-button
+            disabled
+            aria-label="Kosten">
+              <mat-icon matTooltip="{{ event.freeOfCharge ? 'kostenlos' : 'kostet was' }}">euro_symbol</mat-icon>
+            </button>
+          </div>
+        </mat-card-subtitle>
+    </mat-card-header>
+    <div class="event-information"
+    fxLayout="column">
+      <mat-card-content
+      fxFlex="grow">
+          <section *ngIf="isLongText; else isShortText" class="event-description">
+            <p [innerHTML]="(show) ? event.description : event.description | slice:0:500 | attachString:'...':''">
+            </p>
+            <p class="align-right">
+              <a (click)="show = !show" class="show-more">
+                <span>{{ show ? 'weniger anzeigen': 'weiterlesen' }}</span>
+                <mat-icon aria-hidden="false" aria-label="show more">{{ show ? 'keyboard_arrow_up': 'keyboard_arrow_down' }}</mat-icon>
+              </a>
+            </p>
+          </section>
+          <ng-template #isShortText>
+            <section class="event-description">
+              <p [innerHTML]="event.description">
+              </p>
+            </section>
+          </ng-template>
+          <section class="event-time">
+            <mat-divider inset="true"></mat-divider>
+            <p *ngIf="isOneDay; else isSomeDays">
+              {{event.start | date:'fullDate':'de'}}<br>
+              <mat-icon matTooltip="Beginn"
+              aria-label="Beginn">play_arrow
+              </mat-icon>{{event.start | date:'shortTime':'de'}}
+              <mat-icon matTooltip="Ende"
+              aria-label="Ende">stop
+              </mat-icon>{{event.end | date:'shortTime':'de'}}
+            </p>
+            <ng-template #isSomeDays>
+              <p>
+                <mat-icon matTooltip="Beginn"
+                aria-label="Beginn"
+                matTooltipPosition="above">play_arrow</mat-icon>
+                {{event.start | date:'EE dd.MM., HH:mm':'de'}}<br>
+                <mat-icon matTooltip="Ende"
+                aria-label="Ende"
+                matTooltipPosition="below">stop</mat-icon>
+                {{event.end | date:'EE dd.MM., HH:mm':'de'}}
+              </p>
+            </ng-template>
+            <mat-divider inset="true"></mat-divider>
+          </section>
+      </mat-card-content>
+      <mat-card-actions
+      fxLayout="column">
+          <!-- TODO jetzt live icon -->
+        <p fxFlex="grow"></p>
+        <a mat-flat-button *ngIf="event" href="{{event.link}}" target="_blank" rel="noopener">ZUM STREAM<mat-icon>play_arrow</mat-icon></a>
+        <span itemprop="location" class="hidden">{{event.link}}</span>
+      </mat-card-actions>
+    </div>
+</mat-card>
